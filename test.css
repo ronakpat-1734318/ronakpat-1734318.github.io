@@ -23,6 +23,12 @@ ul{
     list-style: none;
     padding-left: 0;
 }
+p{
+    transition: 0.8s;
+}
+p:hover{
+    transform: translateX(-50%);
+}
 li a{
     text-decoration: none;
     transition: 0.2s;
@@ -30,6 +36,13 @@ li a{
 li a:hover{
     color: #FFBC00;
     font-size: 2em;
+}
+h1{
+    cursor: pointer;
+    transition: 0.8s;
+}
+h1:hover{
+    transform: translateX(50%);
 }
 a{
     color: white;
